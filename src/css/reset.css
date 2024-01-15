@@ -14,14 +14,33 @@ p:last-child {
 }
 
 ul {
+  display: grid;
   margin: 0;
   padding: 0;
   list-style: none;
+  gap: 25px;
 }
 
 a {
   color: currentColor;
   text-decoration: none;
+  width: 86px;
+  height: 40px;
+  padding: 8px 16px;
+  border-radius: 8px;
+  background-color: #1ae045;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  text-decoration: none;
+  transition: 0.2s;
+}
+
+a:hover {
+  background-color: rgb(90, 136, 237);
+  font-size: 18px;
+  padding: 10px 18px;
 }
 
 button {

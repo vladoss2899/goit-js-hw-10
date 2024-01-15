@@ -1,34 +1,13 @@
 @import url('./reset.css');
 
-:root {
-  font-family: Montserrat, sans-serif;
-  font-size: 16px;
-  line-height: 24px;
-  font-weight: 400;
-  letter-spacing: 0.04em;
-  color: #2e2f42;
-  background-color: rgba(255, 255, 255, 0.87);
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
-}
-
 section {
-  display: block;
-  width: 100%;
-  height: 100%;
-  margin-bottom: 20px;
-  font-size: 20px;
+  margin-bottom: 40px;
 }
 
 .timer {
   display: flex;
   width: 345px;
   justify-content: space-between;
-  gap: 24px;
 }
 
 .field {
@@ -39,7 +18,6 @@ section {
 
 .value {
   font-size: 40px;
-  line-height: 1.2;
 }
 
 .label {
@@ -50,7 +28,7 @@ section {
   cursor: pointer;
   border: none;
   border-radius: 8px;
-  background-color: #4e75ff;
+  background-color: #1ae045;
   padding: 8px 16px;
   color: #fff;
   font-weight: 500;
@@ -67,18 +45,15 @@ section {
 
 #datetime-picker {
   box-sizing: border-box;
-  margin: 0 8px 32px 0;
-  width: 272px;
-  height: 40px;
+  margin: 0 10px 25px 0;
+  width: 255px;
   padding: 8px 16px;
   border-radius: 4px;
   border: 1px solid #808080;
-  color: #2e2f42;
   font-family: Montserrat, sans-serif;
   font-size: 16px;
-  font-weight: 400;
   line-height: 1.5;
-  letter-spacing: 0.04em;
+  letter-spacing: 0.07em;
 }
 
 [data-start]:hover {
@@ -89,7 +64,6 @@ section {
 
 [data-start]:disabled {
   background-color: #cfcfcf;
-  padding: 8px 16px;
   color: #989898;
   cursor: not-allowed;
 }
@@ -97,9 +71,7 @@ section {
 .form {
   display: block;
   box-sizing: border-box;
-  width: 1440px;
-  height: 496px;
-  padding: 36px 924px 230px 156px;
+  width: 360px;
 }
 
 .label-delay {
@@ -110,25 +82,19 @@ section {
 }
 
 .input-delay {
-  display: block;
-  max-width: 360px;
-  height: 40px;
   border-radius: 4px;
   border: 1px solid #808080;
   margin-top: 8px;
-  padding: 8px 16px;
+  padding: 20px 16px;
   font-family: Montserrat, sans-serif;
   font-size: 16px;
-  font-weight: 400;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
+  letter-spacing: 0.07em;
 }
 
 fieldset {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  margin: 0 0 24px 0;
   margin-bottom: 24px;
   border-radius: 4px;
   border: 1px solid #808080;
@@ -146,7 +112,7 @@ fieldset:hover {
   justify-content: center;
   align-items: center;
   border-radius: 8px;
-  background: #4e75ff;
+  background: #1ae045;
   color: #fff;
   font-family: Montserrat, sans-serif;
   font-size: 16px;
