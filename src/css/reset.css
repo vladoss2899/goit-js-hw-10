@@ -22,16 +22,9 @@ ul {
 }
 
 a {
-  color: currentColor;
-  text-decoration: none;
-  width: 86px;
-  height: 40px;
   padding: 8px 16px;
   border-radius: 8px;
   background-color: #1ae045;
-  color: #fff;
-  font-size: 16px;
-  font-weight: 500;
   line-height: 1.5;
   text-decoration: none;
   transition: 0.2s;
